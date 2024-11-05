@@ -8,14 +8,14 @@
     margin: 20px auto;
 }
 
-.heading h1 {
+.heading .about-h1 {
     font-size: 50px;
     color: #000;
     margin-bottom: 25px;
     position: relative;
 }
 
-.heading h1::after {
+.heading .about-h1::after {
     content: "";
     position: absolute;
     width: 100%;
@@ -67,7 +67,7 @@
     flex: 1;
 }
 
-.about-content h2 {
+.about-content .about-h2 {
     font-size: 23px;
     margin-bottom: 15px;
     color: #333;
@@ -137,7 +137,7 @@
     .heading p {
         font-size: 15px;
     }
-    .about-content h2 {
+    .about-content .about-h2 {
         font-size: 20px;
     }
     .about-content p {

@@ -7,12 +7,12 @@
     justify-content: space-evenly;
 }
 
-.heading-h2 {
+.heading-h1 {
     font-size: 5rem;
     position: relative;
 }
 
-.heading-h2::before {
+.heading-h1::before {
     content: "New";
     position: absolute;
     top: -60px;
@@ -67,7 +67,7 @@
         display: none; 
     }
 
-    .heading-h2 {
+    .heading-h1 {
         font-size: 3rem; 
     }
 

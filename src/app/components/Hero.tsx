@@ -9,7 +9,7 @@ const Hero = () => {
                 <Image src="/images/omega blue.png" alt='hero-image' width={500} height={650} className='hero-image'/>
              </div>
              <div className='content'>
-                 <h1 className='heading-h2'>Pure Luxury</h1>
+                 <h1 className='heading-h1'>Pure Luxury</h1>
                  <h2 className='product_name'>Blue Omega SA</h2>
                  <p className='pricing'>&#36;3,879</p>
                  <div className='btn-container'>
